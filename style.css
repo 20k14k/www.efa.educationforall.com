@@ -1,0 +1,268 @@
+html {
+  font-size: 16px;
+}
+
+/* introduction ka CSS */
+.heading {
+  border: 2px solid black;
+  border-radius: 0px 1.87rem;
+  background-color: rgba(240, 248, 255, 0.85);
+  box-shadow: -2px 2px 5px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  width: 40vw;
+  margin: 0.93rem auto;
+  padding: 0.3rem 1rem;
+}
+.text {
+  border: 2px solid black;
+  border-radius: 0.62rem;
+  padding: 0.93rem;
+  background-color: #f0f8ffa6;
+  box-shadow: -2px 2px 5px;
+  text-align: justify;
+  font-size: 1.2rem;
+  display: block;
+  width: 80%;
+  margin: 0.62rem auto;
+}
+
+/* founder ka CSS */
+
+div.founder {
+  border: 1px solid white;
+  border-radius: 0.62rem;
+  margin: 0.31rem 0.62rem;
+}
+legend {
+  text-align: center;
+}
+
+div.founderimage > img {
+  width: 10.62rem;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 2.5rem;
+}
+
+/* opportunity ka CSS */
+#opportunitytext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#opportunityheading {
+  width: 35%;
+}
+#opportunitytext {
+  width: 90%;
+}
+.opportunityimage img {
+  width: 290px;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 40px;
+}
+
+#leftimage {
+  display: inline-block;
+  width: 18.12rem;
+  margin: 3.12rem auto;
+}
+#midtext {
+  display: inline-block;
+  width: 34.35rem;
+  margin: 1.25rem auto;
+}
+#rightimage {
+  display: inline-block;
+  width: 18.75rem;
+  margin: 3.12rem auto;
+}
+
+/* partners details ka CSS */
+.partnersdetails {
+  border: 1px solid white;
+  border-radius: 0.62rem;
+  margin: 1.25rem 0.62rem;
+}
+.partnerfieldset {
+  background-color: #b6f1f61a;
+  border: solid black 1px;
+  border-radius: 22.5rem;
+  line-height: 1.56rem;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+  margin: 1.25rem 4.37rem;
+  box-shadow: 3px 3px 0.93rem;
+}
+.partnerfieldsetlast {
+  border: solid black 1px;
+  border-radius: 3.12rem;
+  width: 35%;
+  text-align: center;
+  display: block;
+  margin: 1.25rem auto;
+  box-shadow: 3px 3px 0.93rem;
+}
+.partnerimage {
+  width: 7.5rem;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 22.5rem;
+}
+
+/* media ka CSS */
+.mediafieldset {
+  background-color: #b6f1f61a;
+  border: solid black 1px;
+  border-radius: 3.12rem;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+  margin: 1.25rem 4.5rem;
+  box-shadow: 3px 3px 0.93rem;
+}
+.mediafieldsetlast {
+  background-color: #b6c9f64d;
+  border: solid black 1px;
+  border-radius: 3.12rem;
+  width: 35%;
+  text-align: center;
+  display: block;
+  margin: 1.25rem auto;
+  box-shadow: 3px 3px 0.93rem;
+}
+.mediaimage {
+  width: 22.5rem;
+  border-radius: 3.12rem;
+}
+.mediaimagelast {
+  width: 33.125rem;
+  border-radius: 3.12rem;
+}
+.medialegend {
+  background-color: #c3d7d9c2;
+  border-radius: 10.62rem;
+  padding: 1px 2px;
+}
+
+/* footer ka CSS */
+.footer {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+}
+#footerheading,
+#lastline {
+  font-size: medium;
+  margin: 2px auto;
+  background-color: #f0f8ff00;
+  box-shadow: 0px 0px 0px;
+  border: 0px;
+  color: white;
+}
+.button {
+  display: inline-block;
+  width: 20%;
+  margin: 5px auto;
+}
+.footerbutton {
+  font-size: 1.25rem;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #b6f1f61a;
+  color: white;
+  border: solid white 2px;
+  border-radius: 22.5rem;
+}
+.footerbutton:hover {
+  color: black;
+  background-color: #b6f1f6ab;
+  cursor: pointer;
+}
+
+/* -------------Media Queries------------ */
+@media screen and (max-width: 850px) {
+  html{
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 0.93rem;
+    width: 75vw;
+  }
+  .text {
+    padding: 5px;
+    font-size: 0.81rem;
+    width: 95%;
+    margin: 0.62rem auto;
+  }
+  div.founderimage > img {
+    width: 5rem;
+    padding: 3px;
+    border: black solid 1px;
+    border-radius: 0.93rem;
+  }
+  .opportunity > #opportunityheading {
+    width: 85%;
+    font-size: 0.93rem;
+  }
+  #opportunitytext {
+    display: flex;
+    flex-direction: column;
+  }
+  #midtext {
+    width: 17.5rem;
+    margin: -40px auto;
+  }
+  .opportunityimage img {
+    width:14.06rem;
+  }
+  .partnerfieldset {
+    border-radius: 0.93rem;
+    line-height: 0.93rem;
+    width: 50%;
+    margin: 8px -2px;
+  }
+  .partnerfieldsetlast {
+    border-radius: 0.93rem;
+    width: 50%;
+    line-height: 0.93rem;
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+  }
+  .partnerimage {
+    width: 5rem;
+    border-radius:1.8rem;
+  }
+  .mediaimage,
+  .mediaimagelast {
+    width: 17.62rem;
+    border-radius: 2.5rem;
+  }
+  .mediafieldset {
+    border-radius: 3.12rem;
+    width: 61%;
+    text-align: center;
+    display: inline-block;
+    margin: 0.62rem 1.43rem;
+  }
+  #footerheading,
+  #lastline {
+    font-size: 0.68rem;
+  }
+  .button {
+    display: inline-block;
+    width: 30%;
+    margin: 5px auto;
+  }
+  .footerbutton {
+    font-size: 0.62rem;
+  }
+}
