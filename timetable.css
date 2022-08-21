@@ -241,6 +241,7 @@ table tbody tr th {
   cursor: pointer;
 }
 
+
 /* -----------css for phone--------- */
 @media (max-width: 800px) {
   html {
