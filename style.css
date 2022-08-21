@@ -151,42 +151,6 @@ div.founderimage > img {
   padding: 1px 2px;
 }
 
-/* footer ka CSS */
-.footer {
-  text-align: center;
-  background-color: black;
-  margin: 0px;
-  padding: 5px;
-}
-#footerheading,
-#lastline {
-  font-size: medium;
-  margin: 2px auto;
-  background-color: #f0f8ff00;
-  box-shadow: 0px 0px 0px;
-  border: 0px;
-  color: white;
-}
-.button {
-  display: inline-block;
-  width: 20%;
-  margin: 5px auto;
-}
-.footerbutton {
-  font-size: 1.25rem;
-  padding: 5px;
-  font-weight: bold;
-  background-color: #b6f1f61a;
-  color: white;
-  border: solid white 2px;
-  border-radius: 22.5rem;
-}
-.footerbutton:hover {
-  color: black;
-  background-color: #b6f1f6ab;
-  cursor: pointer;
-}
-
 /* -------------Media Queries------------ */
 @media screen and (max-width: 850px) {
   html{
@@ -252,17 +216,5 @@ div.founderimage > img {
     text-align: center;
     display: inline-block;
     margin: 0.62rem 1.43rem;
-  }
-  #footerheading,
-  #lastline {
-    font-size: 0.68rem;
-  }
-  .button {
-    display: inline-block;
-    width: 30%;
-    margin: 5px auto;
-  }
-  .footerbutton {
-    font-size: 0.62rem;
   }
 }
