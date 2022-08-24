@@ -30,12 +30,6 @@ html {
   font-size: 16px;
 }
 
-/* ------from style.css-------- */
-html {
-  font-size: 16px;
-}
-
-/* ----------from timetable.css------------ */
 /* ----header css------ */
 header {
   width: 100%;
@@ -67,6 +61,10 @@ header {
   padding: 3px 0px;
   color: var(--darkwhite);
   font-family: "Oleo Script Swash Caps", cursive !important;
+}
+
+#menuicon {
+  display: none;
 }
 .midheader {
   grid-area: mid;
@@ -188,19 +186,48 @@ marquee {
   .header {
     display: grid;
     grid-template-areas:
-      "left right"
-      " mid mid ";
+      "left left left"
+      "right right menuicon"
+      " mid mid mid";
   }
-  .leftheader,
-  .rightheader {
-    width: 45vw;
+  .leftheader {
+    width: 90vw;
   }
   .leftheader img {
-    width: 20vw;
+    width: 30vw;
   }
-  .midheader nav ul {
+  .rightheader {
+    width: 45vw;
+    margin: 0.5rem 0.1rem;
+  }
+  .rightheader nav ul {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    align-items:flex-start ;
+    flex-wrap: wrap;
+  }
+
+  #menuicon {
+    display: block;
+    width: 45vw;
+    grid-area: menuicon;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  #menuicon img {
+    width: 2rem;
+    filter: invert();
+  }
+  .midheader{
+    display: none;
+  }
+  .midheader nav ul {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
