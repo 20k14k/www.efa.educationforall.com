@@ -30,6 +30,40 @@ html {
   font-size: 16px;
 }
 
+
+
+/* ------------time css----------- */
+.time-container{
+  width: 100%;
+  height: fit-content;
+  padding: 0.4rem 1rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-wrapper{
+  border: solid 2px white;
+  border-radius: 360px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.4rem;
+}
+.timetext{
+  color: white;
+  background-color: transparent;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0rem 0.2rem;
+}
+#slash{
+  padding-bottom: 0.2rem;
+}
+
+
 /* ----header css------ */
 header {
   width: 100%;
