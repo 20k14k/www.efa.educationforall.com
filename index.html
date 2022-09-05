@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="header-footer.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <script src="script.js"></script>
     <title>Education For All</title>
 </head>
 <body>
     <header>
+        <div class="time-container">
+            <div class="time-wrapper">
+                <div class="timetext">Now The Time Is :</div>
+                <div class="timetext" id="hours">00</div>
+                <div class="timetext" id="slash">:</div>
+                <div class="timetext" id="minutes">00</div>
+                <div class="timetext" id="slash">:</div>
+                <div class="timetext" id="seconds">00</div>
+                <div class="timetext" id="session">PM</div>
+            </div>
+        </div>
         <div class="header">
             <div class="leftheader">
                 <img src="efalogo.png" alt="">
                 <h4>Education For All</h4>
             </div>
             <div id="menuicon">
-                <img src="menu.png" alt="" onclick="menuicon()">
+                <img src="menu.png" alt="" onclick="menuclick()">
             </div>
             <div class="midheader" id="midheader">
                 <nav>
