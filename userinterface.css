@@ -118,3 +118,16 @@ body {
     background: #fff;
     cursor: pointer;
   }
+
+
+/* -------------Media Queries------------ */
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+  #menubox {
+    position: absolute;
+    top: 15rem;
+    left: 2.5rem;
+  }
+}
