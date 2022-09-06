@@ -37,7 +37,7 @@ body {
   }
   #menubox {
     position: absolute;
-    top: 6.8rem;
+    top: 8rem;
     right: 2rem;
     width: 15rem;
     z-index: 9999;
@@ -127,7 +127,7 @@ body {
   }
   #menubox {
     position: absolute;
-    top: 15rem;
-    left: 2.5rem;
+    top: 17rem;
+    left: 1.5rem;
   }
 }
