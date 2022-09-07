@@ -30,8 +30,6 @@ html {
   font-size: 16px;
 }
 
-
-
 /* ------------time css----------- */
 .time-container{
   width: 100%;
@@ -62,8 +60,6 @@ html {
 #slash{
   padding-bottom: 0.2rem;
 }
-
-
 /* ----header css------ */
 header {
   width: 100%;
@@ -249,6 +245,7 @@ marquee {
     flex-direction: column;
     align-items: flex-end;
     flex-wrap: wrap;
+    cursor: pointer;
   }
 
   #menuicon img {
@@ -256,12 +253,34 @@ marquee {
     filter: invert();
   }
   .midheader{
-    display: none;
+    position: absolute;
+    top: 17rem;
+    right: 0rem;
+    transition: height 0.5s;
+    height: 0rem;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 12rem;
+    background-color: #fff;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  z-index: 9999;
+  }
+  .midheader.onofff{
+    height: 17rem;
   }
   .midheader nav ul {
-    width: 80vw;
+    width: 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 0.5rem 0.1rem;
+  }
+  .midheader nav ul li a{
+    color: black;
+
+  }
+  .midheader ul li a:hover{
+    color: var(--green);
   }
 }
