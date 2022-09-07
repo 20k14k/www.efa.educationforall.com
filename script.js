@@ -65,11 +65,17 @@ function showtime() {
   }
 }
 
-function menuclick() {
-  let menuitems = document.getElementById("midheader");
-  if (menuitems.style.display != "block") {
-    menuitems.style.display = "block";
-  } else {
-    menuitems.style.display = "none";
-  }
+// function menuclick() {
+//   let menuitems = document.getElementById("midheader");
+//   if (menuitems.style.display != "block") {
+//     menuitems.style.display = "block";
+//   } else {
+//     menuitems.style.display = "none";
+//   }
+// }
+
+let menuitems = document.getElementById("midheader");
+let menubutton = document.getElementById("menuicon");
+menubutton.onclick = function(){
+  menuitems.classList.toggle("onofff");
 }
