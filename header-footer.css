@@ -263,7 +263,7 @@ marquee {
     height: 0rem;
     overflow-y: hidden;
     width: 100%;
-    max-width: 15rem;
+    max-width: 12rem;
     background-color: #fff;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
