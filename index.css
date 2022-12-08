@@ -98,7 +98,7 @@ div.founderimage > img {
   border: solid black 1px;
   border-radius: 2rem;
   line-height: 1.56rem;
-  width: 30vw;
+  width: 32vw;
   max-width: 500px;
   text-align: center;
   margin: 1.25rem 2.37rem;
@@ -150,7 +150,7 @@ div.founderimage > img {
 /* -------------Media Queries------------ */
 @media screen and (max-width: 850px) {
   html{
-    font-size: 12px;
+    font-size: 13px;
   }
   .heading {
     font-size: 0.93rem;
