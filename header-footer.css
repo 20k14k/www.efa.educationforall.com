@@ -31,7 +31,7 @@ html {
 }
 
 /* ------------time css----------- */
-.time-container{
+.time-container {
   width: 100%;
   height: fit-content;
   padding: 0.4rem 1rem;
@@ -40,7 +40,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.time-wrapper{
+.time-wrapper {
   border: solid 2px white;
   border-radius: 360px;
   width: fit-content;
@@ -50,14 +50,14 @@ html {
   align-items: center;
   padding: 0rem 0.4rem;
 }
-.timetext{
+.timetext {
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
   font-weight: bold;
   padding: 0rem 0.2rem;
 }
-#slash{
+#slash {
   padding-bottom: 0.2rem;
 }
 /* ----header css------ */
@@ -180,7 +180,7 @@ marquee {
   background-color: #f0f8ff00;
   box-shadow: 0px 0px 0px;
   border: 0px;
-  color: white;
+  color: rgb(165, 165, 165);
 }
 .button {
   display: inline-block;
@@ -192,13 +192,13 @@ marquee {
   padding: 0.31rem;
   font-weight: bold;
   background-color: #b6f1f61a;
-  color: white;
-  border: solid white 2px;
+  color: rgb(165, 165, 165);
+  border: solid rgb(165, 165, 165) 2px;
   border-radius: 22rem;
 }
 .footerbutton:hover {
   color: black;
-  background-color: #b6f1f6ab;
+  background-color: #ecfbfdab;
   cursor: pointer;
 }
 
@@ -233,7 +233,7 @@ marquee {
   .rightheader nav ul {
     display: flex;
     flex-direction: column;
-    align-items:flex-start ;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 
@@ -252,35 +252,38 @@ marquee {
     width: 2rem;
     filter: invert();
   }
-  .midheader{
+  .header {
+    position: relative;
+  }
+  .midheader {
     position: absolute;
-    top: 17rem;
+    top: -0.25rem;
     right: 0rem;
     transition: height 0.5s;
     height: 0rem;
     overflow-y: hidden;
     width: 100%;
-    max-width: 12rem;
+    max-width: 15rem;
     background-color: #fff;
-  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 4px;
-  z-index: 9999;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    z-index: 9999;
   }
-  .midheader.onofff{
+  .midheader.onofff {
     height: 17rem;
   }
   .midheader nav ul {
-    width: 10rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 0.5rem 0.1rem;
   }
-  .midheader nav ul li a{
+ 
+  .midheader nav ul li a {
     color: black;
-
   }
-  .midheader ul li a:hover{
+  .midheader ul li a:hover {
     color: var(--green);
   }
 }
